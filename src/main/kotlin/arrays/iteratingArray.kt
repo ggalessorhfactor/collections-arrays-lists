@@ -1,20 +1,20 @@
-fun testaMaiorIdade() {
-    val idades: IntArray = intArrayOf(18, 25, 31, 27, 63, 46)
+fun testAges() {
+    val ages: IntArray = intArrayOf(18, 25, 31, 27, 63, 46)
 
-    var maiorIdade = Int.MIN_VALUE
-    for (idade in idades) {
-        if (idade > maiorIdade) {
-            maiorIdade = idade
+    var older = Int.MIN_VALUE
+    for (age in ages) {
+        if (age > older) {
+            older = age
         }
     }
 
-    println(maiorIdade)
+    println(older)
 
-    var menorIdade = Int.MAX_VALUE
-    idades.forEach { idade ->
-        if (idade < menorIdade) {
-            menorIdade = idade
+    var newest = Int.MAX_VALUE
+    ages.forEach { age ->
+        if (age < newest) {
+            newest = age
         }
     }
-    println(menorIdade)
+    println(newest)
 }
