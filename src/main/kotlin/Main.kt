@@ -1,5 +1,5 @@
 fun main() {
     aggregationsFunctions()
 
-    testaMaiorIdade()
+//    testAges()
 }
